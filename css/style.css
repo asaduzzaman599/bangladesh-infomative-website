@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main-section {
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.main-section div p {
+    text-align: justify;
+    padding: 10px 10px 10px 0;
+}
+
+.main-section div img {
+    width: 80%;
+}
+
+.heading-color {
+    color: green;
+}
+
+.link-btn {
+    text-decoration: none;
+    margin: 40px;
+    display: inline-block;
+    padding: 10px 40px;
+    background-image: linear-gradient(30deg, green, red);
+    color: aliceblue;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: 0.3s;
+
+}
+
+.link-btn:hover {
+    background-image: linear-gradient(to left, white, green);
+    color: red;
+}
