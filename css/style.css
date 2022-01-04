@@ -23,7 +23,7 @@ body {
     color: green;
 }
 
-.link-btn {
+.link-btn-main {
     text-decoration: none;
     margin: 40px;
     display: inline-block;
@@ -45,7 +45,7 @@ body {
     margin-top: 30px;
 }
 
-.link-btn:hover {
+.link-btn-main:hover {
     background-image: linear-gradient(to left, white, green);
     color: red;
 }
@@ -68,6 +68,23 @@ body {
 .div-info-item .division-item p {
     text-align: justify;
 
+}
+
+.link-btn {
+    text-decoration: none;
+    margin: 40px;
+    display: inline-block;
+    padding: 10px 40px;
+    background-image: linear-gradient(30deg, cadetblue, cadetblue);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.link-btn:hover {
+    background-image: linear-gradient(to left, cadetblue, white);
+    color: cadetblue;
 }
 
 .division-item {
