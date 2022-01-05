@@ -4,10 +4,18 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.bg-img {
+
+    background-image: url(https://i.ytimg.com/vi/rDYdeq3JW_E/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .main-section {
     display: flex;
     width: 80%;
-    margin: 100px auto;
+    padding: 100px 0;
+    margin: 0px auto;
 }
 
 .main-section div p {
